@@ -1,0 +1,126 @@
+.container {
+    font-family: 'Poppins', sans-serif;
+    width: auto;
+    
+}
+
+header img { 
+    max-height: 130px;
+    padding-top: 110px;
+    padding-left: 50px;
+}
+
+.info h1 {
+    font-weight: 200;
+    font-size: 28px;
+    color: #2F4944;
+    padding-left: 50px;
+    display: inline-block;
+}
+
+.info li {
+    display:inline-block;
+    text-align: center;
+    padding-right: 30px;
+    color: #2F4944;
+}
+.info img {
+    display:inline-block;
+    max-height: 130px;
+}
+.info p{
+    margin-top: -5px; 
+}
+.phone img {
+    max-height: 600px;
+    float: right;
+    margin-top: -530px;
+    padding-right: 50px;
+    z-index: -1;
+    position: relative;
+}
+.download {
+    background-color: #2F4944;
+    color: white;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+}
+
+.download h3{
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 200;
+    z-index: 1;
+    clear: both;
+    padding-top: -50px;
+    display: inline-block;
+    margin-left: 380px;
+}
+.download #buttons {
+    text-align: center;
+    clear: both;
+}
+.download img {
+    max-height: 60px;
+    margin-top: -15px;
+    display: inline-block;
+}
+.arrow i {
+    font-size: 60px;
+    margin-top: -20px;
+    padding-bottom: 10px;
+}
+i:hover {
+    color: #57c1a7;
+}
+
+#page2 {
+    text-align: center;
+}
+
+.alerts {
+    padding-top: 200px;
+    display: inline-block;
+}
+.alerts h3 {
+    max-width: 350px;
+    display: inline-block;
+    float: left;
+    color: #2F4944;
+    font-weight: 400;
+    padding-top: 100px;
+    text-align: left;
+}
+.alerts img {
+    max-height: 550px;
+    margin-top: -150px;
+    float: right;
+    display: inline-block;
+    
+}
+
+#navigation {
+}
+i {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 40px;
+    color: #ccc;
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    color: #2F4944;
+    padding-top: 10px;
+}
+
+
+
+
+
+
+

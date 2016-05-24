@@ -1,10 +1,150 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
-    <title>title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="scripts.js"></script>
+      <script type="text/javascript" language="javascript"></script>
+    <script src="https://use.fontawesome.com/bb30c075a2.js">
+    </script>
+    <script> function showHide() {
+        var ele = document.getElementById("showHideDiv");
+        var ele1 = document.getElementById("showHideDiv1");
+        var ele2 = document.getElementById("showHideDiv2");
+        ele1.style.display = "none";
+        ele2.style.display = "none";
+        if(ele.style.display == "block") {
+                ele.style.display = "none";             
+          }
+        else {
+            ele.style.display = "block";            
+        }
+    }
+    function showHide1() {
+        var ele = document.getElementById("showHideDiv");
+        var ele1 = document.getElementById("showHideDiv1");
+        var ele2 = document.getElementById("showHideDiv2");
+        ele.style.display = "none";
+        ele2.style.display = "none";
+        if(ele1.style.display == "block") {
+                ele1.style.display = "none";
+          }
+        else {
+            ele1.style.display = "block";
+        }
+    }
+    function showHide2() {
+        var ele = document.getElementById("showHideDiv");
+        var ele1 = document.getElementById("showHideDiv1");
+        var ele2 = document.getElementById("showHideDiv2");
+        ele.style.display = "none";
+        ele1.style.display = "none";
+        if(ele2.style.display == "block") {
+                ele2.style.display = "none";
+          }
+        else {
+            ele2.style.display = "block";
+        }
+    }
+</script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="media/appicon-01.png">
+    <link href='https://fonts.googleapis.com/css?family=Poppins:300,400,500' rel='stylesheet' type='text/css'> 
+    <title>FairFare</title>
   </head>
+    
+    
   <body>
-      <p> TESTING </p>
+      <div class="container">
+          
+      <header>
+          <img src="Media/full_logo.png">
+      </header>
+      
+          
+      <div id="page1">
+        <section class="info">
+           <h1>We'll alert you when flights fit your:</h1>
+           <ul id="icons">
+                <li>
+                    <img src="media/icon-03.png" alt="...">
+                    <p>Destination</p>
+                </li>
+                <li> 
+                    <img src="media/icon-01.png" alt="...">
+                    <p>Prices</p>
+                </li>
+                <li> 
+                    <img src="media/icon-02.png" alt="...">
+                    <p>Dates</p>
+                </li>
+           </ul>  
+        </section>  
+        
+          
+        <section class="phone">
+          <img src="Media/Phone-01.png">
+        </section>
+          
+        <section class="download">
+          <h3>GET IT FREE</h3>
+          <div id="buttons">
+                    <img src="Media/button-01.png" alt="...">
+                    <img src="Media/button-02.png" alt="...">
+          </div> 
+          <div class="arrow">
+              <a href="#page2"><i class="fa fa-angle-down"></i></a>
+          </div> 
+        </section>
+          
+     </div>
+          
+      <div id="page2">
+            <div class="alerts">
+            <h3>Fair Fare will only alert you when a fare fits your price point.</h3>
+            <img src="Media/Phone-01.png">
+            </div>
+          
+          
+     
+          <section id="info">
+            <div id="showHideDiv" style="display:none;"> 
+                <div class="alerts">
+                        <h3>Fair Fare will only alert you when a fare fits your price point.</h3>
+                        <img src="Media/Phone-01.png">
+                </div>    
+            </div>
+                
+            <div id="showHideDiv1" style="display:none;">
+                 <div class="trips">
+                        <h3>Fair Fare will only alert you when a fare fits your price point.</h3>
+                        <img src="Media/Phone-01.png">
+                </div> 
+            </div>
+            
+            <div id="showHideDiv2" style="display:none;">        <div class="alerts">
+                        <h3>Fair Fare will only alert you when a fare fits your price point.</h3>
+                        <img src="Media/Phone-01.png"> 
+            </div>
+         </section>
+              
+              
+              
+             <div id="navigation">           
+                 <a href=""><i class="fa fa-circle"></i></a>
+                 <a href=""><i class="fa fa-circle"></i></a>
+                 <a href=""><i class="fa fa-circle"></i></a>
+                 <a href=""><i class="fa fa-circle"></i></a>
+              </div>
+          
+
+        
+          
+        <footer>
+          <p>2016 © FairFare. All rights reserved.</p>
+        </footer>
+      </div>
+          
+          
+      </div>
   </body>
 </html>
