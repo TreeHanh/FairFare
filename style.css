@@ -42,15 +42,16 @@ header img {
 }*/
 #videogrp {
     float: right;
-    margin-top: -490px;
-    margin-left: 1000px;
-    z-index: 1000;
-    position: relative;
+    margin-top: -520px;
+    margin-right:50px;
+    margin-left: 1100px;
+    z-index: -1;
     max-height: 1000px;
+    position: absolute;
+    display: inline-block;
 }
 #video {
     margin-top: -20px;  
-    max-height: 1000px;
 }
 .download {
     background-color: #2F4944;
