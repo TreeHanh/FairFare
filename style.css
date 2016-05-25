@@ -70,6 +70,12 @@ i:hover {
 i:hover, i:active  {
     color: #57c1a7;  
 }
+.a i:hover{ 
+    color: #57c1a7;
+}
+.a i:active{ 
+    color: #57c1a7;
+}
 /*Page 1 Ends*/
 
 
@@ -88,7 +94,7 @@ i:hover, i:active  {
     float: left;
     color: #2F4944;
     font-weight: 400;
-    padding-top: 100px;
+    padding-top: 60px;
     text-align: left;
 }
 #about img {
