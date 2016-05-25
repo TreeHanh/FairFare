@@ -3,9 +3,8 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="scripts.js"></script>
-      <script type="text/javascript" language="javascript"></script>
-    <script src="https://use.fontawesome.com/bb30c075a2.js">
-    </script>
+    <script type="text/javascript" language="javascript"></script>
+    <script src="https://use.fontawesome.com/bb30c075a2.js"></script>
     <script> function showHide() {
         var ele = document.getElementById("showHideDiv");
         var ele1 = document.getElementById("showHideDiv1");
@@ -82,7 +81,14 @@
         
           
         <section class="phone">
-          <img src="Media/Phone-01.png">
+         <!-- <img src="Media/Phone-01.png">-->
+          <div id="videogrp">
+                    <div id="video">
+                        <video autoplay loop poster="media/screen.mp4" style="position: relative; top: 0px; left: 100%; margin-left: -200%; min-width: 100%; min-height: 100%; max-height: 1000px; max-width: 100%;">
+                        <source src="media/screen.mp4" type="video/mp4">
+                        </video>
+                    </div> 
+             </div>
         </section>
           
         <section class="download">
@@ -96,15 +102,10 @@
           </div> 
         </section>
           
-     </div>
+      </div>
           
       <div id="page2">
-           <!-- <div id="alerts">
-            <h3>Fair Fare will only alert you when a fare fits your price point.</h3>
-            <img src="Media/Phone-01.png">
-            </div>-->
-            <div id="about">
-                
+          <div id="about">  
             <div id="showHideDiv" style="display:none;"> 
                 <div class="alerts">
                         <h3>Fair Fare will only alert you when a fare fits your price point.</h3>
@@ -123,17 +124,20 @@
                 <div class="fairdeals">
                         <h3>Fair Fare will only alert you when a fare fits your price point.</h3>
                         <img src="Media/Phone-01.png"> 
+                </div>
             </div>
-            
-            
-                
-          </div>
           </div>
               
               <div id="navigation">           
-                 <a onclick="return showHide();"><i class="fa fa-circle"></i></a>
-                  <a onclick="return showHide1();"><i class="fa fa-circle"></i></a>
-                  <a onclick="return showHide2();"><i class="fa fa-circle"></i></a>
+                 <a onclick="return showHide();">
+                     <i class="fa fa-circle"></i>
+                 </a>
+                 <a onclick="return showHide1();">
+                     <i class="fa fa-circle"></i>
+                 </a>
+                 <a onclick="return showHide2();">
+                     <i class="fa fa-circle"></i>
+                 </a>
               </div>
             
         <footer>
@@ -143,6 +147,6 @@
       </div>
           
           
-      </div>
+     </div>
   </body>
 </html>

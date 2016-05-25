@@ -32,13 +32,25 @@ header img {
 .info p{
     margin-top: -5px; 
 }
-.phone img {
+/*.phone img {
     max-height: 600px;
     float: right;
     margin-top: -530px;
     padding-right: 50px;
     z-index: -1;
     position: relative;
+}*/
+#videogrp {
+    float: right;
+    margin-top: -490px;
+    margin-left: 1000px;
+    z-index: 1000;
+    position: relative;
+    max-height: 1000px;
+}
+#video {
+    margin-top: -20px;  
+    max-height: 1000px;
 }
 .download {
     background-color: #2F4944;
@@ -126,33 +138,36 @@ footer {
 /*Page 2 Ends*/
 
 @media screen and (max-width: 690px) {
-        header {
+    header {
         text-align: center;
-        padding-top: 0px;
-        margin-top:-100px;
+        padding-top: 10px;
+        margin-top:-180px;
+        margin-left: 0px;
     }
     header img {
         padding-top: -160px;
-        max-height: 80px;
+        max-height: 20px;
     }
     #page1 {
         text-align: center;
     }
     .phone {
         text-align: center;
+        font-size: 15px;
+        max-height: 200px;
     }
     .phone img {
-    max-height: 500px;    
+    max-height: 200px;    
     text-align: center;
     z-index: 0px;
     position: absolute;
     margin-left: 0px;
     margin-right: 0px;
-    margin-top: -400px;
+    margin-top: -500px;
     }
     .info h1 {
     font-weight: 200;
-    font-size: 20px;
+    font-size: 15px;
     color: #2F4944;
     display: inline-block;
     margin-bottom: -40px;
@@ -165,7 +180,7 @@ footer {
     }
     .info img {
     display:inline-block;
-    max-height: 90px;
+    max-height: 50px;
     }
     .info p{
     margin-top: -5px; 
@@ -202,17 +217,18 @@ footer {
     #about {
     padding-top: 200px;
     text-align: center;
-    clear:both;
     }
     #about h3 {
     max-width: 350px;
     color: #2F4944;
     font-weight: 400;
     padding-top: 0px;
+    margin-top: 0px;
     text-align: left;
+    font-size: 15px;
     }
     #about img {
-    max-height: 550px;
+    max-height: 400px;
     margin-top: -150px;
     text-align: center;
     
@@ -222,11 +238,10 @@ footer {
 
 @media screen and (max-width: 900px) {
 header img { 
-    max-height: 100px;
+    max-height: 70px;
     padding-top: 180px;
     padding-left: 50px;
 }
-
 .info h1 {
     font-weight: 200;
     font-size: 18px;
@@ -234,7 +249,6 @@ header img {
     padding-left: 50px;
     display: inline-block;
 }
-
 .info li {
     display:inline-block;
     text-align: center;
@@ -243,7 +257,7 @@ header img {
 }
 .info img {
     display:inline-block;
-    max-height: 90px;
+    max-height: 80px;
 }
 .info p{
     margin-top: -5px; 
@@ -263,7 +277,6 @@ header img {
     text-align: center;
     z-index: 1;
 }
-
 .download h3{
     text-align: center;
     margin-top: 15px;
@@ -272,7 +285,7 @@ header img {
     clear: both;
     padding-top: -50px;
     display: inline-block;
-    margin-left: 380px;
+    margin-left: 150px;
 }
 .download #buttons {
     text-align: center;
