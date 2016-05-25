@@ -13,7 +13,7 @@ header img {
 
 .info h1 {
     font-weight: 200;
-    font-size: 28px;
+    font-size: 26px;
     color: #2F4944;
     padding-left: 50px;
     display: inline-block;
@@ -33,20 +33,11 @@ header img {
     margin-top: -5px; 
     margin-bottom: 50px;
 }
-/*.phone img {
-    max-height: 600px;
-    float: right;
-    margin-top: -530px;
-    padding-right: 50px;
-    z-index: -1;
-    position: relative;
-}*/
 #videogrp {
     float: right;
     margin-top: -520px;
     margin-right:50px;
     z-index: -1;
-    max-height: 1000px;
     position: relative;
 }
 #video {
@@ -59,16 +50,6 @@ header img {
     text-align: center;
     z-index: 1;
 }
-
-/*.download h3{
-    text-align: center;
-    margin-top: 15px;
-    font-weight: 200;
-    z-index: 1;
-    clear: both;
-    padding-top: -50px;
-    display: inline-block;
-}*/
 .download #buttons {
     text-align: center;
     clear: both;
@@ -86,7 +67,7 @@ header img {
 i:hover {
     color: #57c1a7;
 }
-i:active {
+i:hover, i:active  {
     color: #57c1a7;  
 }
 /*Page 1 Ends*/
@@ -150,26 +131,14 @@ footer {
     #page1 {
         text-align: center;
     }
-    .phone {
-        text-align: center;
-        font-size: 15px;
-        max-height: 200px;
-    }
-    .phone img {
-    max-height: 200px;    
-    text-align: center;
-    z-index: 0px;
-    position: absolute;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: -500px;
+    .info {
+
     }
     .info h1 {
     font-weight: 200;
     font-size: 15px;
     color: #2F4944;
     display: inline-block;
-    margin-bottom: -40px;
     }
     .info li {
     display:inline-block;
@@ -184,7 +153,19 @@ footer {
     .info p{
     margin-top: -5px; 
     font-size: 13px;
-    margin-bottom: 340px;
+    margin-bottom: 1000px;
+        
+    }
+    #videogrp {
+    text-align: center;
+    margin-top: 0px;
+    margin-right:0px;
+    margin-left: 0px;
+    z-index: -1;
+    position: fixed;
+    align-content: center;
+    }
+    #video {  
     }
     .download {
     background-color: #2F4944;
@@ -260,14 +241,14 @@ header img {
 }
 .info p{
     margin-top: -5px; 
+    margin-bottom: 100px;
 }
-.phone img {
-    max-height: 500px;
+#videogrp {
     float: right;
-    margin-top: -440px;
-    padding-right: 50px;
-    z-index: -1;
     position: relative;
+    margin-top:-520px;
+}
+#video {  
 }
 .download {
     background-color: #2F4944;
@@ -276,23 +257,14 @@ header img {
     text-align: center;
     z-index: 1;
 }
-.download h3{
-    text-align: center;
-    margin-top: 15px;
-    font-weight: 200;
-    z-index: 1;
-    clear: both;
-    padding-top: -50px;
-    display: inline-block;
-    margin-left: 150px;
-}
 .download #buttons {
     text-align: center;
     clear: both;
+    padding-top: -95px;
 }
 .download img {
     max-height: 60px;
-    margin-top: -15px;
+    margin-top: -45px;
     display: inline-block;
 }
 .arrow i {
