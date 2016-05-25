@@ -145,13 +145,10 @@ i {
     body {
     text-align: center;
     }
-    header {
-    text-align: center;
-    margin-top: -150px;
-    display: normal;
-    }
     header img {
-    max-height: 40px;       
+    margin-top: -150px;
+    width: 150px;       
+    padding-left: 0px;
     text-align: center;
     }
     #page1 {
@@ -160,10 +157,11 @@ i {
     .info {
     margin-left: -20px;
     margin-right: -20px;
+    padding-left: 0px;
+    font-size: 10px;
     }
     .info h1 {
-    font-weight: 200;
-    font-size: 12px;
+    font-weight: 100;
     color: #2F4944;
     }
     .info li {
@@ -173,7 +171,7 @@ i {
     }
     .info img {
     display:inline-block;
-    max-height: 6px;
+    max-width: 60px;
     margin-top: -20px;
     }
     .info p{
@@ -189,28 +187,16 @@ i {
     color: white;
     width: 100%;
     text-align: center;
-    z-index: 1;
-    max-height: 1000px;
-    }
-    .download h3{
-    font-size: 15px;
-    text-align: center;
-    margin-top: 50px;
-    font-weight: 200;
-    z-index: 1;
-    clear: both;
-    padding-top: -50px;
-    display: inline-block;
-    margin-left: 0px;
     }
     .download #buttons {
     text-align: center;
     background-color: #2F4944;
+    display: normal;
     }
     .download img {
     max-height: 50px;
     margin-top: 0px;
-    display: inline-block;
+    display: normal;
     }
     #about {
     padding-top: 200px;
@@ -236,7 +222,7 @@ i {
     }
     #phone img {
     max-height: 500px;
-    margin-top: 0px;
+    margin-top: -100px;
     }
     #about {
     text-align: center;
