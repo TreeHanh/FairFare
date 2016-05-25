@@ -140,13 +140,18 @@ i {
     color: slategray;
 }
 /*Page 2 Ends*/
+@media screen and (max-width: 360px) {
+    .info {
+        display: none;
+    }
+}
 
 @media screen and (max-width: 720px) {
     body {
     text-align: center;
     }
     header img {
-    margin-top: -150px;
+    margin-top: -170px;
     width: 150px;       
     padding-left: 0px;
     text-align: center;
@@ -163,6 +168,7 @@ i {
     .info h1 {
     font-weight: 100;
     color: #2F4944;
+    font-size: 10px;
     }
     .info li {
     text-align: center;
@@ -185,7 +191,7 @@ i {
     .download {
     background-color: #2F4944;
     color: white;
-    width: 100%;
+    margin-top: -60px;
     text-align: center;
     }
     .download #buttons {
@@ -194,8 +200,8 @@ i {
     display: normal;
     }
     .download img {
-    max-height: 50px;
-    margin-top: 0px;
+    max-width: 100px;
+    margin-top: -500px;
     display: normal;
     }
     #about {
@@ -203,25 +209,23 @@ i {
     text-align: center;
     }
     #about h3 {
-    max-width: 350px;
-    color: #2F4944;
-    font-weight: 400;
-    padding-top: 0px;
-    margin-top: 0px;
-    text-align: left;
+    text-align: center;
     font-size: 15px;
+    display: inline;
     }
     #about img {
-    max-height: 400px;
+    max-width: 200px;
     margin-top: -150px;
     text-align: center;
     }
     #phone {
     display: inline-block;
     text-align: center;
+    z-index: -1;
+    position: relative;
     }
     #phone img {
-    max-height: 500px;
+    max-height: 450px;
     margin-top: -100px;
     }
     #about {
