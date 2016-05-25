@@ -42,13 +42,11 @@ header img {
 }*/
 #videogrp {
     float: right;
-    margin-top: -520px;
+    margin-top: -490px;
     margin-right:50px;
-    margin-left: 1100px;
     z-index: -1;
     max-height: 1000px;
-    position: absolute;
-    display: inline-block;
+    position: relative;
 }
 #video {
     margin-top: -20px;  
