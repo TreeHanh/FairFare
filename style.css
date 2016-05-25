@@ -31,6 +31,7 @@ header img {
 }
 .info p{
     margin-top: -5px; 
+    margin-bottom: 50px;
 }
 /*.phone img {
     max-height: 600px;
@@ -42,7 +43,7 @@ header img {
 }*/
 #videogrp {
     float: right;
-    margin-top: -490px;
+    margin-top: -520px;
     margin-right:50px;
     z-index: -1;
     max-height: 1000px;
@@ -74,7 +75,7 @@ header img {
 }
 .download img {
     max-height: 60px;
-    margin-top: -25px;
+    margin-top: -45px;
     display: inline-block;
 }
 .arrow i {
