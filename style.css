@@ -127,13 +127,13 @@ i {
     color: #57c1a7; 
 }
 /*Page 2 Ends*/
-@media screen and (max-width: 360px) {
+/*@media screen and (max-width: 360px) {
     .info {
         display: none;
     }
-}
+}*/
 
-@media screen and (min-width: 361px) and (max-width: 720px) {
+@media screen and (max-width: 768px) {
     body {
     text-align: center;
     }
@@ -169,7 +169,7 @@ i {
     }
     .info p{
     margin-top: -5px; 
-    font-size: 12px;
+    font-size: 9px;
     margin-bottom: 0px;   
     }
     #videogrp {
@@ -225,7 +225,7 @@ i {
     }
 
 
-@media screen and (min-width: 721px) and (max-width:899px) {
+@media screen and (min-width: 767px) and (max-width:899px) {
 header img { 
     max-height: 100px;
     padding-top: 180px;
