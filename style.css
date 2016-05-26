@@ -124,17 +124,16 @@ i {
     color: #2F4944;
 }
 #container-footer p:hover {
-    color: #57c1a7;
-    
+    color: #57c1a7; 
 }
 /*Page 2 Ends*/
-/*@media screen and (max-width: 360px) {
+@media screen and (max-width: 360px) {
     .info {
         display: none;
     }
-}*/
+}
 
-@media screen and (max-width: 720px) {
+@media screen and (min-width: 361px) and (max-width: 720px) {
     body {
     text-align: center;
     }
@@ -145,12 +144,12 @@ i {
     text-align: center;
     }
     .info{
-        margin-left:0px;
-        padding-left:0px;
-        margin-right:0px;
-        padding-right:0px;
-        display:normal;
-         text-align: center;
+    margin-left:0px;
+    padding-left:0px;
+    margin-right:0px;
+    padding-right:0px;
+    display:normal;
+    text-align: center;
     }
     .info h1 {
     font-size: 15px;
@@ -163,8 +162,9 @@ i {
     text-align: center;
     }
     .info img {
-    max-width: 60px;
+    max-width: 40px;
     margin-top: -20px;
+    padding-right:10px;
     display:inline-block;
     }
     .info p{
