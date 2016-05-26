@@ -2,9 +2,8 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script type="text/javascript" language="javascript"></script>
     <script src="https://use.fontawesome.com/bb30c075a2.js"></script>
-<!-- javascript starts for dots navigation on page two for the about section-->
+<!-- javascript starts for navigation dots on page two for the about section-->
     <script> function showHide() {
         var ele = document.getElementById("showHideDiv");
         var ele1 = document.getElementById("showHideDiv1");
@@ -50,17 +49,19 @@
     <link href='https://fonts.googleapis.com/css?family=Poppins:300,400,500' rel='stylesheet' type='text/css'> 
     <title>FairFare</title>
   </head>
-    
-    
+
+<!--Page 1 starts for the landing section starts-->
   <body>
       <div class="container">
-         
-      <div id="page1">
+        
+      <div id="container-page1">
+<!--Logo image starts-->
       <header>
           <img src="Media/full_logo.png">
       </header>
+<!--Logo image ends-->
       
-          
+<!--Brief intro to the app -->        
         <section class="info">
            <h1>We'll alert you when flights fit your:</h1>
            <ul id="icons">
@@ -78,10 +79,13 @@
                 </li>
            </ul>  
         </section> 
+<!--Brief intro to the app ends--> 
+               
           
-          
-        
+          <!--Image of App for use on mobile when video doesn't load-->
           <div id="phone"><img src="Media/Phone-01.png"></div>
+          
+<!--Video of App Starts-->  
           <div id="videogrp">
                     <div id="video">
                         <video autoplay loop poster="media/phone-img.png" style="position: relative; top: 0px; margin-left: 400px; max-height: 600px; max-width: 300px;">
@@ -89,7 +93,9 @@
                         </video>
                     </div> 
              </div>
-          
+<!--Video of App Ends--> 
+
+<!--Download App Section with Arrow Down to Page 2-->
         <section class="download">
           <div id="buttons">
                     <img src="Media/button-01.png" alt="...">
@@ -99,33 +105,41 @@
               <a href="#page2"><i class="fa fa-angle-down"></i></a>
           </div> 
         </section>
+<!--Download App Section ends-->
           
       </div>
+<!--Page 1 starts for the landing section ends-->
+      
           
-      <div id="page2">
+<!--Page 2 Starts-->
+      <div id="container-page2">
+          
+<!--Features about the app starts-->
           <div id="about">  
             <div id="showHideDiv" style="display:show;"> 
                 <div class="alerts">
                         <h3>Fair Fare will only alert you when a fare fits your price point or when someone shares a deal with you.</h3>
-                        <img src="Media/Phone-01.png">
+                        <img src="Media/mockup-01.png">
                 </div>    
             </div>
     
             <div id="showHideDiv1" style="display:none;">
                  <div class="social">
-                        <h3>Check out Fair Deals to find your next dream vacation. Invite friends and family for a group trip together.</h3>
-                        <img src="Media/Phone-01.png">
+                        <h3>Check out Fair Deals to find your next dream vacation. Invite your friends and family to take part in a group trip.</h3>
+                        <img src="Media/mockup-02.png">
                 </div> 
             </div>
             
             <div id="showHideDiv2" style="display:none;">        
                 <div class="fairdeals">
                         <h3>Use the Farecast feature to help plan around the best time to fly.</h3>
-                        <img src="Media/Phone-01.png"> 
+                        <img src="Media/mockup-03.png"> 
                 </div>
             </div>
           </div>
-              
+<!--Features about the app ends-->
+          
+<!--Dots to navigate the about section starts-->         
               <div id="navigation">           
                  <a onclick="return showHide();">
                      <i class="fa fa-circle"></i>
@@ -137,16 +151,18 @@
                      <i class="fa fa-circle"></i>
                  </a>
               </div>
+<!--Dots to navigate the about section ends--> 
           
-            
+ <!--Footer section starts-->         
         <div id="container-footer">
               <a href="#page1"><p>top</p></a>
               <h5>2016 © FairFare. All rights reserved.</h5>
         </div>
+<!--footer section ends-->
               
       </div>
-          
-          
+<!--Page 2 ends-->
+              
      </div>
   </body>
 </html>

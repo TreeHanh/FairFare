@@ -1,3 +1,5 @@
+/*CSS StyleSheet for FairFare App*/
+
 .container {
     font-family: 'Poppins', sans-serif;
     width: auto;
@@ -5,12 +7,16 @@
 }
 
 /*Page 1*/
+
+/*Logo starts*/
 header img { 
     max-height: 130px;
     padding-top: 110px;
     padding-left: 50px;
 }
+/*Logo ends*/
 
+/*Info Section Starts (brief info and app video)*/
 .info h1 {
     font-weight: 200;
     font-size: 26px;
@@ -43,6 +49,12 @@ header img {
 #video {
     margin-top: -20px;  
 }
+#phone {
+    display:none;
+}
+/*Info Section Ends (brief info and app video)*/
+
+/*App download section and arrow down to page2 starts */
 .download {
     background-color: #2F4944;
     color: white;
@@ -64,19 +76,33 @@ header img {
     margin-top: -20px;
     padding-bottom: 10px;
 }
+i {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 40px;
+    color: #ccc;
+    margin-top: 20px;
+    font-size: 40px;
+    margin-bottom: -70px;
+}
 i:hover {
     color: #57c1a7;
 }
-#phone {
-    display:none;
+i:active {
+    color: #57c1a7;
 }
+i:visited {
+    color: #57c1a7;
+}
+/*App download section and arrow down to page2 starts. Problem with dot staying green color when clicked and on the page only on laptop. It works on mobile and tablet. */
+
 /*Page 1 Ends*/
 
-/*Page 2*/
-#page2 {
+/*Page 2 starts*/
+#container-page2 {
     text-align: center;
 }
-
+/*About section starts about key features of the app*/
 #about {
     padding-top: 200px;
     display: inline-block;
@@ -97,17 +123,9 @@ i:hover {
     display: inline-block;
     
 }
-#navigation {
-}
-i {
-    margin-left: 10px;
-    margin-right: 10px;
-    height: 40px;
-    color: #ccc;
-    margin-top: 20px;
-    font-size: 40px;
-    margin-bottom: -70px;
-}    
+/*About section ends about key features of the app*/ 
+
+/*footer section starts*/
 #container-footer {
     text-align: center;
     color: #2F4944;
@@ -126,16 +144,13 @@ i {
 #container-footer p:hover {
     color: #57c1a7; 
 }
-/*Page 2 Ends*/
-/*@media screen and (max-width: 479px) {
-    .info {
-        display: none;
-    }
-    
-}*/
+/*footer section ends*/
+
+/*Page 2 ends*/
 
 
-@media screen /*and (min-device-width: 480px)*/ and (max-width: 750px) {
+/*Media Query for Mobile starts*/
+@media screen and (max-width: 750px) {
     body {
     text-align: center;
     }
@@ -171,7 +186,7 @@ i {
     }
     .info p{
     margin-top: -5px; 
-    font-size: 9px;
+    font-size: 11px;
     margin-bottom: 0px;   
     }
     #videogrp {
@@ -188,11 +203,11 @@ i {
     background-color: #2F4944;
     margin-top:0px;
     display: normal;
-    padding-top:30px;
+    padding-top:20px;
     }
     .download img {
-    max-height: 40px;
-    margin-top: -500px;
+    max-height: 50px;
+    margin-top: 0px;
     display: normal;
     }
     #phone {
@@ -229,8 +244,9 @@ i {
     display: normal;
     }
 }
+/*Media Query for Mobile ends*/
 
-
+/*Media Query for IPad and Tablet starts*/
 @media screen and (min-width: 751px) and (max-width:899px) {
 header img { 
     max-height: 100px;
@@ -306,7 +322,7 @@ header img {
     
 }
 }
- 
+/*Media Query for IPad and Tablet Ends*/
 
 
 
