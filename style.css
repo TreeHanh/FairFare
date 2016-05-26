@@ -67,26 +67,10 @@ header img {
 i:hover {
     color: #57c1a7;
 }
-i:active {
-    color: #57c1a7;
-}
-i:visited {
-    color: #57c1a7;  
-}
-.a i:hover { 
-    color: #57c1a7;
-}
-.a i:active{ 
-    color: #57c1a7;
-}
-.a i:visited{ 
-    color: #57c1a7;
-}
 #phone {
     display:none;
 }
 /*Page 1 Ends*/
-
 
 /*Page 2*/
 #page2 {
@@ -127,17 +111,21 @@ i {
 #container-footer {
     text-align: center;
     color: #2F4944;
-    margin-top:-20px;
+    margin-top: 20px;
 }
-#container-footer p {
+#container-footer h5 {
     text-align: center;
     font-size: 10px;
     color: #2F4944;
 }
-#container-footer .arrow-up {
-    font-size: 50px;
-    margin-bottom:-30px;
-    color: slategray;
+#container-footer p{
+    text-align: center;
+    font-size: 12px;
+    color: #2F4944;
+}
+#container-footer p:hover {
+    color: #57c1a7;
+    
 }
 /*Page 2 Ends*/
 /*@media screen and (max-width: 360px) {
@@ -151,34 +139,33 @@ i {
     text-align: center;
     }
     header img {
-    margin-top: -170px;
-    width: 150px;       
+    margin-top: -110px;
+    max-height: 80px;       
     padding-left: 0px;
     text-align: center;
     }
-    #page1 {
-    text-align: center;
-    }
-    .info {
-    margin-left: -20px;
-    margin-right: -20px;
-    padding-left: 0px;
-    font-size: 10px;
+    .info{
+        margin-left:0px;
+        padding-left:0px;
+        margin-right:0px;
+        padding-right:0px;
+        display:normal;
+         text-align: center;
     }
     .info h1 {
-    font-weight: 100;
-    color: #2F4944;
-    font-size: 10px;
+    font-size: 15px;
+    margin-left:0px;
+    padding-left:0px;
+    margin-right:0px;
+    padding-right:0px;
     }
     .info li {
     text-align: center;
-    padding-right: 0px;
-    color: #2F4944;
     }
     .info img {
-    display:inline-block;
     max-width: 60px;
     margin-top: -20px;
+    display:inline-block;
     }
     .info p{
     margin-top: -5px; 
@@ -197,26 +184,33 @@ i {
     .download #buttons {
     text-align: center;
     background-color: #2F4944;
+    margin-top:0px;
     display: normal;
+    padding-top:30px;
     }
     .download img {
-    max-width: 100px;
+    max-height: 40px;
     margin-top: -500px;
     display: normal;
     }
     #about {
     padding-top: 200px;
     text-align: center;
+    margin-left: 0px;
+    padding-left:0px;
+    margin-right: 0px;
+    padding-right: 0px;
+    display: normal;
     }
     #about h3 {
     text-align: center;
-    font-size: 15px;
-    display: inline;
+    font-size: 10px;
+    display: normal;
+    margin-top: -230px;
     }
     #about img {
     max-width: 200px;
-    margin-top: -150px;
-    text-align: center;
+    margin-top: -130px;
     }
     #phone {
     display: inline-block;
@@ -225,30 +219,13 @@ i {
     position: relative;
     }
     #phone img {
-    max-height: 450px;
-    margin-top: -100px;
-    }
-    #about {
-    text-align: center;
-    }
-    #about h3 {
-    max-width: 350px;
-    float: none;
-    color: #2F4944;
-    font-weight: 400;
-    padding-top: 10px;
-    text-align: center;
-    }
-    #about img {
-    text-align: center;
-    max-height: 300px;
-    float: none;
-    display: inline-block;
+    max-height: 400px;
+    margin-top: -10px;
     }
     }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (min-width: 721px) and (max-width:899px) {
 header img { 
     max-height: 100px;
     padding-top: 180px;
