@@ -238,8 +238,8 @@ i:visited {
     margin-right: 10px;
     }
     #about img {
-    max-height: 550px;
-    margin-top: -10px;
+    max-height: 500px;
+    margin-top: 10px;
     float: none;
     display: normal;
     }
