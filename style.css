@@ -127,15 +127,15 @@ i {
     color: #57c1a7; 
 }
 /*Page 2 Ends*/
-@media screen and (max-width: 479px) {
-   /* .info {
+/*@media screen and (max-width: 479px) {
+    .info {
         display: none;
-    }*/
+    }
     
-}
+}*/
 
 
-@media screen /*and (min-device-width: 480px)*/ and (max-width: 768px) {
+@media screen /*and (min-device-width: 480px)*/ and (max-width: 750px) {
     body {
     text-align: center;
     }
@@ -195,21 +195,6 @@ i {
     margin-top: -500px;
     display: normal;
     }
-    #about {
-    padding-top: 200px;
-    text-align: center;
-    display: normal;
-    }
-    #about h3 {
-    text-align: center;
-    font-size: 10px;
-    display: normal;
-    margin-top: -30px;
-    }
-    #about img {
-    max-width: 200px;
-    margin-top: -130px;
-    }
     #phone {
     display: inline-block;
     text-align: center;
@@ -220,18 +205,41 @@ i {
     max-height: 470px;
     margin-top: -10px;
     }
+    #about {
+    margin-top: 0px;
+    display: normal;
+    padding-top: 30px;
+    text-align: center;
     }
+    #about h3 {
+    max-width: 100%;
+    display: normal;
+    font-size; 10px;
+    float: none;
+    padding-top: 0px;
+    text-align: center;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+    #about img {
+    max-height: 550px;
+    margin-top: -10px;
+    float: none;
+    display: normal;
+    }
+}
 
 
-@media screen and (min-width: 767px) and (max-width:899px) {
+@media screen and (min-width: 751px) and (max-width:899px) {
 header img { 
     max-height: 100px;
-    padding-top: 180px;
+    padding-top: 160px;
     padding-left: 40px;
 }
 .info h1 {
     font-weight: 200;
-    font-size: 18px;
+    font-size: 20px;
     color: #2F4944;
     padding-left: 40px;
     display: inline-block;
@@ -244,7 +252,7 @@ header img {
 }
 .info img {
     display:inline-block;
-    max-height: 80px;
+    max-height: 90px;
 }
 .info p{
     margin-top: -5px; 
