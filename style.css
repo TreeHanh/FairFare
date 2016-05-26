@@ -131,6 +131,7 @@ i {
    /* .info {
         display: none;
     }*/
+    
 }
 
 
@@ -187,7 +188,7 @@ i {
     background-color: #2F4944;
     margin-top:0px;
     display: normal;
-    padding-top:40px;
+    padding-top:30px;
     }
     .download img {
     max-height: 40px;
@@ -216,7 +217,7 @@ i {
     position: relative;
     }
     #phone img {
-    max-height: 500px;
+    max-height: 470px;
     margin-top: -10px;
     }
     }
