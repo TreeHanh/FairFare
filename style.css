@@ -132,8 +132,11 @@ i {
         display: none;
     }
 }*/
+/*@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)*/
 
-@media screen and (max-width: 768px) {
+@media screen and (min-device-width: 320px) and (max-width: 768px) {
     body {
     text-align: center;
     }
@@ -219,7 +222,7 @@ i {
     position: relative;
     }
     #phone img {
-    max-height: 400px;
+    max-height: 500px;
     margin-top: -10px;
     }
     }
