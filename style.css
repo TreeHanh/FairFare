@@ -135,7 +135,7 @@ i {
 }
 
 
-@media screen and (min-device-width: 480px) and (max-width: 768px) {
+@media screen /*and (min-device-width: 480px)*/ and (max-width: 768px) {
     body {
     text-align: center;
     }
