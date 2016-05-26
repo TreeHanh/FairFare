@@ -127,16 +127,20 @@ i {
     color: #57c1a7; 
 }
 /*Page 2 Ends*/
-/*@media screen and (max-width: 360px) {
-    .info {
+@media screen and (max-width: 479px) {
+   /* .info {
         display: none;
+    }*/
+      #about h3 {
+    text-align: center;
+    font-size: 10px;
+    display: normal;
+    margin-top: -530px;
     }
-}*/
-/*@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px)*/
+}
 
-@media screen and (min-device-width: 320px) and (max-width: 768px) {
+
+@media screen and (min-device-width: 480px) and (max-width: 768px) {
     body {
     text-align: center;
     }
@@ -189,7 +193,7 @@ i {
     background-color: #2F4944;
     margin-top:0px;
     display: normal;
-    padding-top:30px;
+    padding-top:40px;
     }
     .download img {
     max-height: 40px;
@@ -199,17 +203,13 @@ i {
     #about {
     padding-top: 200px;
     text-align: center;
-    margin-left: 0px;
-    padding-left:0px;
-    margin-right: 0px;
-    padding-right: 0px;
     display: normal;
     }
     #about h3 {
     text-align: center;
     font-size: 10px;
     display: normal;
-    margin-top: -230px;
+    margin-top: -30px;
     }
     #about img {
     max-width: 200px;
