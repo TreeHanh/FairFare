@@ -165,7 +165,6 @@ i:visited {
     padding-left:0px;
     margin-right:0px;
     padding-right:0px;
-    display:normal;
     text-align: center;
     }
     .info h1 {
@@ -174,6 +173,7 @@ i:visited {
     padding-left:0px;
     margin-right:0px;
     padding-right:0px;
+    text-align: center;
     }
     .info li {
     text-align: center;
@@ -183,11 +183,13 @@ i:visited {
     margin-top: -20px;
     padding-right:10px;
     display:inline-block;
+    text-align: center;
     }
     .info p{
     margin-top: -5px; 
     font-size: 11px;
-    margin-bottom: 0px;   
+    margin-bottom: 0px; 
+    text-align: center;
     }
     #videogrp {
     display: none;
